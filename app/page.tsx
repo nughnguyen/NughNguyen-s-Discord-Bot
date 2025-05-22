@@ -76,7 +76,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                Ignite Your Discord Server with <span className="text-primary">Flame</span>
+                Ignite Your Discord Server with <span className="text-primary">MarbleSoda</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 A powerful Discord bot packed with AntiNuke, AutoMod, games, and more to enhance your server experience.
@@ -84,7 +84,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="btn-hover-effect">
                   <Link
-                    href="https://discord.com/oauth2/authorize?client_id=1366728449313603594&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2FhdsTnN9gfQ&integration_type=0&scope=bot+guilds"
+                    href="https://discord.com/oauth2/authorize?client_id=1305035261897343026&permissions=8&integration_type=0&scope=applications.commands+bot"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -103,7 +103,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <div className="relative h-[300px] md:h-[400px] w-full flame-glow">
-                <Image src="/logo.png" alt="Flame Bot" fill className="object-contain" />
+                <Image src="/logo.png" alt="MarbleSoda Bot" fill className="object-contain" />
               </div>
             </motion.div>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Powerful Features</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Flame comes packed with everything you need to make your Discord server amazing.
+              MarbleSoda comes packed with everything you need to make your Discord server amazing.
             </p>
           </div>
 
@@ -201,15 +201,15 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to ignite your server?</h2>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of servers already using Flame to enhance their Discord experience.
+              Join thousands of servers already using MarbleSoda to enhance their Discord experience.
             </p>
             <Button asChild size="lg" className="btn-hover-effect">
               <Link
-                href="https://discord.com/oauth2/authorize?client_id=1366728449313603594&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2FhdsTnN9gfQ&integration_type=0&scope=bot+guilds"
+                href="https://discord.com/oauth2/authorize?client_id=1305035261897343026&permissions=8&integration_type=0&scope=applications.commands+bot"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Add Flame to Discord
+                Add MarbleSoda to Discord
               </Link>
             </Button>
           </motion.div>

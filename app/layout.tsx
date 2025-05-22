@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Flame - Discord Bot",
+  title: "MarbleSoda - Discord Bot",
   description: "A powerful Discord bot for your server",
     generator: 'v0.dev'
 }

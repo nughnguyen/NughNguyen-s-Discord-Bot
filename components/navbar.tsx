@@ -37,9 +37,9 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="relative h-10 w-10 flame-glow">
-                <Image src="/logo.png" alt="Flame Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="MarbleSoda Logo" fill className="object-contain" />
               </div>
-              <span className="text-xl font-bold text-primary">Flame</span>
+              <span className="text-xl font-bold text-primary">MarbleSoda</span>
             </Link>
           </div>
 
@@ -56,7 +56,7 @@ export default function Navbar() {
             ))}
             <Button asChild className="btn-hover-effect">
               <Link
-                href="https://discord.com/oauth2/authorize?client_id=1366728449313603594&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2FhdsTnN9gfQ&integration_type=0&scope=bot+guilds"
+                href="https://discord.com/oauth2/authorize?client_id=1305035261897343026&permissions=8&integration_type=0&scope=applications.commands+bot"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -97,7 +97,7 @@ export default function Navbar() {
             <div className="pt-2">
               <Button asChild className="w-full btn-hover-effect">
                 <Link
-                  href="https://discord.com/oauth2/authorize?client_id=1366728449313603594&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2FhdsTnN9gfQ&integration_type=0&scope=bot+guilds"
+                  href="https://discord.com/oauth2/authorize?client_id=1305035261897343026&permissions=8&integration_type=0&scope=applications.commands+bot"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => setIsOpen(false)}

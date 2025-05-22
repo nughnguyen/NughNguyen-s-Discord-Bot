@@ -100,7 +100,7 @@ export default function FeaturesPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Discover all the amazing features that Flame has to offer for your Discord server.
+            Discover all the amazing features that MarbleSoda has to offer for your Discord server.
           </motion.p>
         </div>
       </section>
@@ -148,9 +148,9 @@ export default function FeaturesPage() {
       <section className="py-16 bg-secondary/50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">See Flame in Action</h2>
+            <h2 className="text-3xl font-bold mb-4">See MarbleSoda in Action</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Check out some examples of Flame's features in real Discord servers.
+              Check out some examples of MarbleSoda's features in real Discord servers.
             </p>
           </div>
 
@@ -214,7 +214,7 @@ export default function FeaturesPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Ready to try these features?</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Add Flame to your Discord server today and experience all these amazing features firsthand.
+              Add MarbleSoda to your Discord server today and experience all these amazing features firsthand.
             </p>
             <Button asChild size="lg" className="btn-hover-effect">
               <Link href="https://discord.com/oauth2/authorize" target="_blank" rel="noopener noreferrer">

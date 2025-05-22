@@ -10,9 +10,9 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="relative h-8 w-8">
-                <Image src="/logo.png" alt="Flame Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="MarbleSoda Logo" fill className="object-contain" />
               </div>
-              <span className="text-lg font-bold text-primary">Flame</span>
+              <span className="text-lg font-bold text-primary">MarbleSoda</span>
             </div>
             <p className="text-sm text-muted-foreground">
               A powerful Discord bot to enhance your server experience with AntiNuke, AutoMod, games, and more.
@@ -37,7 +37,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
-                href="https://discord.gg/hdsTnN9gfQ"
+                href="https://dsc.gg/thenoicez"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -124,7 +124,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-border pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Flame Bot. All rights reserved.
+            &copy; {new Date().getFullYear()} MarbleSoda Bot. All rights reserved.
           </p>
         </div>
       </div>

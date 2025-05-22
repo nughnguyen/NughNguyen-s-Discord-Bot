@@ -14,14 +14,14 @@ export default function SupportPage() {
 
   const faqs = [
     {
-      question: "How do I add Flame to my Discord server?",
+      question: "How do I add MarbleSoda to my Discord server?",
       answer:
-        'You can add Flame to your server by clicking the "Add to Discord" button on our website. You\'ll need to have the "Manage Server" permission in the Discord server you want to add it to.',
+        'You can add MarbleSoda to your server by clicking the "Add to Discord" button on our website. You\'ll need to have the "Manage Server" permission in the Discord server you want to add it to.',
     },
     {
-      question: "What permissions does Flame need?",
+      question: "What permissions does MarbleSoda need?",
       answer:
-        'Flame requires several permissions to function properly, including "Read Messages", "Send Messages", "Manage Messages" for moderation, and "Connect" and "Speak" for music features. When you add the bot, you\'ll see a full list of required permissions.',
+        'MarbleSoda requires several permissions to function properly, including "Read Messages", "Send Messages", "Manage Messages" for moderation, and "Connect" and "Speak" for music features. When you add the bot, you\'ll see a full list of required permissions.',
     },
     {
       question: "How do I set up auto-moderation?",
@@ -30,12 +30,12 @@ export default function SupportPage() {
     },
     {
       question: "Can I customize the prefix?",
-      answer: "The default prefix for Flame is a comma (,). You can use commands like ,help to get started.",
+      answer: "The default prefix for MarbleSoda is a comma (,). You can use commands like ,help to get started.",
     },
     {
-      question: "Is Flame free to use?",
+      question: "Is MarbleSoda free to use?",
       answer:
-        "Yes, Flame is free to use with all core features available. We also offer a premium tier with additional features and higher limits for power users.",
+        "Yes, MarbleSoda is free to use with all core features available. We also offer a premium tier with additional features and higher limits for power users.",
     },
     {
       question: "How do I report a bug?",
@@ -45,7 +45,7 @@ export default function SupportPage() {
     {
       question: "Can I suggest new features?",
       answer:
-        "We love hearing your ideas. Join our support server and post in the #suggestions channel, or use the ,suggest command in any server with Flame.",
+        "We love hearing your ideas. Join our support server and post in the #suggestions channel, or use the ,suggest command in any server with MarbleSoda.",
     },
     {
       question: "How do I set up AntiNuke protection?",
@@ -72,14 +72,14 @@ export default function SupportPage() {
       title: "Discord Server",
       description: "Join our community for live support",
       icon: <Discord className="h-10 w-10 text-primary" />,
-      link: "https://discord.gg/hdsTnN9gfQ",
+      link: "https://dsc.gg/thenoicez",
       linkText: "Join Server",
     },
     {
       title: "GitHub Issues",
       description: "Report bugs or contribute to the project",
       icon: <Github className="h-10 w-10 text-primary" />,
-      link: "https://github.com/flame-bot/flame",
+      link: "https://github.com/nughnguyen/NughNguyen-s-Discord-Bot/issues",
       linkText: "View GitHub",
     },
   ]
@@ -144,7 +144,7 @@ export default function SupportPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Find quick answers to common questions about Flame.
+              Find quick answers to common questions about MarbleSoda.
             </p>
 
             <div className="relative max-w-md mx-auto">
@@ -203,10 +203,10 @@ export default function SupportPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-4">Join Our Community</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Connect with other Flame users, get help from our team, and stay updated on the latest features.
+                  Connect with other MarbleSoda users, get help from our team, and stay updated on the latest features.
                 </p>
                 <Button asChild size="lg" className="btn-hover-effect">
-                  <Link href="https://discord.gg/hdsTnN9gfQ" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://dsc.gg/thenoicez" target="_blank" rel="noopener noreferrer">
                     <Discord className="mr-2 h-5 w-5" />
                     Join Discord Server
                   </Link>
@@ -214,13 +214,13 @@ export default function SupportPage() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild variant="outline">
-                  <Link href="https://twitter.com/flamebot" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://twitter.com/nughnguyen" target="_blank" rel="noopener noreferrer">
                     <Twitter className="mr-2 h-5 w-5" />
                     Follow on Twitter
                   </Link>
                 </Button>
                 <Button asChild variant="outline">
-                  <Link href="https://github.com/flame-bot" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://github.com/nughnguyen" target="_blank" rel="noopener noreferrer">
                     <Github className="mr-2 h-5 w-5" />
                     Star on GitHub
                   </Link>
@@ -236,7 +236,7 @@ export default function SupportPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Command Showcase</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Explore some of the powerful commands Flame has to offer.
+              Explore some of the powerful commands MarbleSoda has to offer.
             </p>
           </div>
 

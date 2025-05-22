@@ -64,8 +64,8 @@ export default function ContactPage() {
       title: "Email",
       description: "Send us an email directly",
       icon: <Mail className="h-10 w-10 text-primary" />,
-      contact: "hungnw.august.support@gmail.com",
-      link: "mailto:hungnq.august.support@gmail.com",
+      contact: "hungnq.support@gmail.com",
+      link: "mailto:hungnq.support@gmail.com",
     },
     {
       title: "Discord",
@@ -78,8 +78,8 @@ export default function ContactPage() {
       title: "Twitter",
       description: "DM us on Twitter",
       icon: <Twitter className="h-10 w-10 text-primary" />,
-      contact: "@flamebot",
-      link: "https://twitter.com/flamebot",
+      contact: "@nughnguyen",
+      link: "https://twitter.com/nughnguyen",
     },
   ]
 
